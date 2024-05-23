@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de películas</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="searchBar m-4">
+        <h1>Buscador de Películas</h1>
+        <div class="form-group">
+        <h2>Busca aquí tu película favorita</h2>
+        </div>
+        <form id="form" class="form-group">
+        <input
+        type="search"
+        class="form-control"
+        id="searchId"
+        placeholder="buscar"
+        />
+        <input type="submit" value="Buscar Película" class="btn btn-primary" />
+        </form>
+    </div>
+    <section id="movieCard" class="d-flex flex-wrap"></section>
+    
+</body>
+</html>
+
